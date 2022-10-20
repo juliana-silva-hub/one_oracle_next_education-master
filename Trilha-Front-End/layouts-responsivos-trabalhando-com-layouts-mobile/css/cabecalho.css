@@ -36,3 +36,13 @@
     margin-left: .7rem;
     margin-right: .7rem;  
 }
+
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        border: none;
+        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

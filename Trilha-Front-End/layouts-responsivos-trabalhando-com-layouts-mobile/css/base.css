@@ -57,10 +57,44 @@ body {
 
     display: block;
 
+    max-width: 350px;
+
     padding: 1rem 2rem;
 
     text-align: center;
 
-    max-width: 350px;
     width: 100%;  
+}
+
+.contato__botao {
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    display: block;
+
+    max-width: 350px;
+
+    padding: 1rem 2rem;
+
+    text-align: center;
+
+    width: 100%; 
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .planos {
+        padding-left: calc((100% - 1200px)/2);
+        padding-right: calc((100% - 1200px)/2);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional {
+        padding-left: calc((100% - 1200px)/2);
+        padding-right: calc((100% - 1200px)/2);
+    }
 }
